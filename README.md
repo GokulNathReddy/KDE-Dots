@@ -19,7 +19,7 @@ Just copy & paste below command in terminal & run it that's it. Optimized to wor
 git clone https://github.com/DarkXero-dev/KDE-Dots && cd KDE-Dots && ./install.sh
 ```
 
-**Don't forget to reboot after applying the rice, for it to work. It's important...**
+**Don't forget to reboot after applying rice. It's very important...**
 
 ### Side-Note :
 
