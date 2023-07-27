@@ -19,6 +19,8 @@ Just copy & paste below command in terminal & run it that's it. Optimized to wor
 git clone https://github.com/DarkXero-dev/KDE-Dots && cd KDE-Dots && ./install.sh
 ```
 
+**Don't forget to reboot after applying the rice, for it to work. It's important...**
+
 ### Side-Note :
 
 > If you apply this rice and something goes wrong, well, that's not a fault of my own, it's just KDE being what it is, to remedy the situation, you are kindly requested to re-apply the rice again, that should fix it. Sorry about that but sometimes KDE can be a pain.. I still love it though ;)
