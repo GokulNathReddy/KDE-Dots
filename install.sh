@@ -2,13 +2,10 @@
 #set -e
 echo "##########################################"
 echo "Be Careful this will override your Rice!! "
+echo "    Some Packages Will Build from AUR.    "
 echo "##########################################"
+sleep 3
 echo
-echo "Removing No longer needed Packages"
-echo "##################################"
-sudo pacman -Rns --noconfirm latte-dock &>/dev/null; sudo pacman -Rns --noconfirm qt5-virtualkeyboard &>/dev/null; sudo pacman -Rns --noconfirm qt6-virtualkeyboard &>/dev/null
-echo
-sleep 2
 echo "Installing Necessary Packages"
 echo "#############################"
 # Check if any of the specified packages are installed and install them if not present
@@ -23,13 +20,13 @@ echo "##############"
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin/ && makepkg -si --noconfirm
 cd ..
 echo
-echo "Installing AUR Packages"
-echo "#######################"
+echo "Installing AUR Packages. Might take a while !"
+echo "#############################################"
 yay -S --noconfirm latte-dock-git ttf-meslo-nerd-font-powerlevel10k
 sleep 2
 echo
 echo "Installing Icon Theme"
-echo "#######################"
+echo "#####################"
 git clone https://github.com/vinceliuice/Tela-circle-icon-theme.git && cd Tela-circle-icon-theme/ && ./install.sh -c purple
 cd ..
 sleep 2
