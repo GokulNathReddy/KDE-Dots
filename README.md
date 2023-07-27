@@ -1,6 +1,6 @@
 ### This is the Layan Rice Dot-Files From XEroLinux
 
-<h1 align="center">This is just a small taste of what XeroLinux is not the whole.<br /> For the whole experience must install and use it.</h1>
+<h3 align="center">This is just a small taste of what XeroLinux is not the whole.<br /> For the whole experience must install and use it.</h3>
 
 ### Disclaimer
 
