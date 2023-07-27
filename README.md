@@ -1,12 +1,10 @@
-### This is the Layan Dot-Files I made for XeroLinux
-
 <h3 align="center">This is just a small taste of what XeroLinux is.<br /> For the whole experience you must <a href="https://xerolinux.xyz">install the Distro</a> & use it.</h3>
 
 ### Disclaimer
 
-I also would like to clarify one very important aspect of ricing. Rice uses custom themes, and those might not get updated very often, if at all by their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of my hands.
+This is a simplified version of the default **XeroLinux** default rice that I made. I would like to clarify one very important aspect of ricing. Rice uses custom themes, and those might not get updated very often, if at all by their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of my hands.
 
-![XeroLayan](https://i.imgur.com/pkJa46J.png)
+![XeroLayan](https://i.imgur.com/smB3w3w.png)
 
 ### Performance :
 
