@@ -1,4 +1,4 @@
-### This is the Layan Rice Dot-Files From XEroLinux
+### This is the Layan Dot-Files I made for XeroLinux
 
 <h3 align="center">This is just a small taste of what XeroLinux is.<br /> For the whole experience you must install Distro & use it.</h3>
 
