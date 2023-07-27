@@ -14,7 +14,7 @@ This rice has been throughly optimized for best performance on higher-end system
 
 ### Installation
 
-Just git clone this repo and copy & paste below command nin terminal & run it that's it. Optimized to work on any **Arch-Based** Distro with **KDE-Plasma**...
+Just copy & paste below command nin terminal & run it that's it. Optimized to work on any **Arch-Based** Distro with **KDE-Plasma**...
 ```
 git clone https://github.com/DarkXero-dev/KDE-Dots && cd KDE-Dots && ./install.sh
 ```
