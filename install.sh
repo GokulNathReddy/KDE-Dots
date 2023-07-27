@@ -36,6 +36,7 @@ sleep 2
 echo
 echo "Creating Backup & Applying new Rice, hold on..."
 echo "###############################################"
+echo 'neofetch' | tee -a ~/.bashrc
 cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -Rf Configs/Home/. ~
 sudo cp -Rf Configs/System/. / && sudo cp -Rf Configs/Home/. /root/
 sleep 2

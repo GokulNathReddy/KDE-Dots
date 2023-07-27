@@ -1,8 +1,10 @@
-# This is my Layan Rice Dot-Files
+### This is the Layan Rice Dot-Files From XEroLinux
+
+<h1 align="center">This is just a small taste of what XeroLinux is not the whole.<br /> For the whole experience must install and use it.</h1>
 
 ### Disclaimer
 
-I would like to clarify one very important aspect of ricing. Rice uses custom themes, and those might not get updated very often, if at all by their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of my hands.
+I also would like to clarify one very important aspect of ricing. Rice uses custom themes, and those might not get updated very often, if at all by their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of my hands.
 
 ![XeroLayan](https://i.imgur.com/pkJa46J.png)
 
