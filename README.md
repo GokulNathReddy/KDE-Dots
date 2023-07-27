@@ -1,6 +1,6 @@
 ### This is the Layan Dot-Files I made for XeroLinux
 
-<h3 align="center">This is just a small taste of what XeroLinux is.<br /> For the whole experience you must [install the Distro](https://xerolinux.xyz) & use it.</h3>
+<h3 align="center">This is just a small taste of what XeroLinux is.<br /> For the whole experience you must <a href="https://xerolinux.xyz">install the Distro</a> & use it.</h3>
 
 ### Disclaimer
 
