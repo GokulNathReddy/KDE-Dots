@@ -46,7 +46,6 @@ Item {
 
     PlasmaComponents.Button {
         id: appButton
-        text: i18n('Choose application ...')
         onClicked: appMenuDialog.open()
     }
 

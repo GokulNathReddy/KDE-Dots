@@ -5,7 +5,6 @@ State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAB9fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAG
 ShowCopyMoveMenu=true
 
 [General]
-BrowseThroughArchives=true
 GlobalViewProps=false
 ShowFullPath=true
 ShowToolTips=true

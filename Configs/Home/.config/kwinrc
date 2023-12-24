@@ -30,12 +30,9 @@ NoiseStrength=2
 BorderActivateAll=9
 
 [Effect-wobblywindows]
-BlurStrength=6
-Drag=97
-MoveFactor=25
-NoiseStrength=2
-Stiffness=1
-WobblynessLevel=4
+Drag=85
+Stiffness=10
+WobblynessLevel=1
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu

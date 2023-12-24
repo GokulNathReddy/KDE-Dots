@@ -21,7 +21,17 @@
         <entry name="showReboot" type="Bool">
             <default>true</default>
         </entry>
+        <entry name="showKexec" type="Bool">
+            <default>false</default>
+        </entry>
         <entry name="showShutdown" type="Bool">
             <default>true</default>
         </entry>
+        <entry name="width" type="int">
+            <default>180</default>
+        </entry>
+        <entry name="height" type="int">
+            <default>180</default>
+        </entry>
+    </group>
 </kcfg>

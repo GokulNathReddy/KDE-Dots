@@ -19,6 +19,7 @@ Item {
     property bool showSuspend: plasmoid.configuration.showSuspend
     property bool showHibernate: plasmoid.configuration.showHibernate
     property bool showReboot: plasmoid.configuration.showReboot
+    property bool showKexec: plasmoid.configuration.showKexec
     property bool showShutdown: plasmoid.configuration.showShutdown
 
     Layout.fillWidth: true
@@ -60,6 +61,10 @@ Item {
     function action_reBoot() {
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 1 2')
     }
+
+    function action_kexec() {
+        executable.exec('qdbus --system org.freedesktop.systemd1 /org/freedesktop/systemd1 org.freedesktop.systemd1.Manager.StartUnit kexec.target replace-irreversibly')
+    }
     
     function action_lockScreen() {
         executable.exec('qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock')
@@ -80,15 +85,15 @@ Item {
     PlasmaComponents.Highlight {
         id: delegateHighlight
         visible: false
-        hovered: true
+//         hovered: true
         z: -1 // otherwise it shows ontop of the icon/label and tints them slightly
     }
 
     Plasmoid.fullRepresentation: Item {
         Layout.fillWidth: true
         Layout.fillHeight: true
-        width: 180
-        height: 180
+        Layout.preferredWidth: plasmoid.configuration.width * PlasmaCore.Units.devicePixelRatio
+        Layout.preferredHeight: plasmoid.configuration.height * PlasmaCore.Units.devicePixelRatio
 
         ColumnLayout {
             id: column
@@ -138,6 +143,16 @@ Item {
                 onClicked: action_reBoot()
                 visible: showReboot
             }
+
+            ListDelegate {
+                id: kexecButton
+                text: i18n("Kexec Reboot")
+                highlight: delegateHighlight
+                icon: "system-reboot"
+                onClicked: action_kexec()
+                visible: showKexec
+            }
+
             ListDelegate {
                 id: shutdownButton
                 text: i18n("Shutdown")

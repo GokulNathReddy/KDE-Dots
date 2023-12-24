@@ -22,7 +22,7 @@ cd ..
 echo
 echo "Installing AUR Packages. Might take a while !"
 echo "#############################################"
-yay -S --noconfirm latte-dock-git ttf-meslo-nerd-font-powerlevel10k
+yay -S --noconfirm ttf-meslo-nerd-font-powerlevel10k
 sleep 2
 echo
 echo "Installing Icon Theme"
@@ -58,6 +58,15 @@ echo "#################################"
 git clone https://github.com/vinceliuice/Layan-gtk-theme.git && cd Layan-gtk-theme/ && sh install.sh -l -c dark
 cd ..
 echo
+echo "Applying Flatpak GTK Overrides"
+echo "##############################"
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --filesystem=xdg-config/gtk-3.0:ro
+sudo flatpak override --filesystem=xdg-config/gtk-4.0:ro
+echo
+echo "Cleaning up the cache"
+echo "#####################"
+sleep 2
 rm -rf ~/.cache/
 echo
 echo "Plz Reboot To Apply Settings..."
